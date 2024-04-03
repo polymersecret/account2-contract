@@ -16,9 +16,6 @@ npm i
 npm run serve
 ```
 
-### Mnemonic: 
-    innocent merit harbor rifle autumn cart corn wonder voice forward plastic embody
-
 ## Tx hash
 Optimism tx hash:             0xc6c487902b7823d7f5ca3091c989b81bcccfcb4d3766825bcd7e84ab75eb2ea8
 Base tx hash: 0xdd978624d563d32b9a009e6d0de124c90ed3f466970568399d2b68f812269eeb
