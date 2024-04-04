@@ -1,5 +1,14 @@
+## Team Members
 
-## Run-book
+- @morrisernest - Developer
+
+
+## Introduction
+
+Our project aims to build a L2 native token bridge. We plan to build standardized vault for locking tokens and minting tokens.
+
+
+## Steps to reproduce
 1. Contract dependens install, compile and deploy
 ```
 just install
@@ -16,15 +25,30 @@ npm i
 npm run serve
 ```
 
-## Tx hash
-Optimism tx hash:             0xc6c487902b7823d7f5ca3091c989b81bcccfcb4d3766825bcd7e84ab75eb2ea8
-Base tx hash: 0xdd978624d563d32b9a009e6d0de124c90ed3f466970568399d2b68f812269eeb
 
+## Proof of testnet interaction
 
-## portAddr
-Op: 0xB49a654EcED1CF6FabE4C347faD2089490889fCE
-Base: 0xB49a654EcED1CF6FabE4C347faD2089490889fCE
+After following the steps above you should have interacted with the testnet. You can check this at the [IBC Explorer](https://explorer.ethdenver.testnet.polymer.zone/).
 
+Here's the data of our application:
 
+- Contract (OP Sepolia) : 0xB49a654EcED1CF6FabE4C347faD2089490889fCE
+- Contract (Base Sepolia): 0xB49a654EcED1CF6FabE4C347faD2089490889fCE
+- Channel (OP Sepolia): 0xB49a654EcED1CF6FabE4C347faD2089490889fCE
+- Channel (Base Sepolia): 0xB49a654EcED1CF6FabE4C347faD2089490889fCE
 
+- Proof of Testnet interaction:
+    - [SendTx](https://optimism-sepolia.blockscout.com/tx/0xc6c487902b7823d7f5ca3091c989b81bcccfcb4d3766825bcd7e84ab75eb2ea8)
+    - [RecvTx](https://base-sepolia.blockscout.com/tx/0xdd978624d563d32b9a009e6d0de124c90ed3f466970568399d2b68f812269eeb)
+    - [Ack](https://base-sepolia.blockscout.com/tx/0xdd978624d563d32b9a009e6d0de124c90ed3f466970568399d2b68f812269eeb)
 
+## What we learned
+
+We learned how to build a l2 bridge using polymer
+
+## Future Improvements
+Maybe we maintain the security of the vault, such as multi-signature
+Support more L2 
+
+## License
+Apache 2.0
